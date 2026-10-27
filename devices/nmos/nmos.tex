@@ -9,16 +9,57 @@
 \maketitle
 
 \section*{Schematic}
+\subsection*{Symbols}
 \includegraphics{symbols}
+
+\subsection*{Models}
+Large-signal model:
+
+\includegraphics[width=0.95\linewidth]{large-signal}
+
+Small-signal model:
+
+\includegraphics[width=0.95\linewidth]{small-signal}
 
 \section*{Equations}
 \begin{tabular}{ l l l }
 Equation & Conditions & Notes \\ 
 $i_D = 0$ & $v_{GS} < V_{tn}$ & (Cutoff region) \\  
 $i_D = k_n^{\prime} \left( \frac{W}{L} \right) \left( v_{OV} - \frac{1}{2} v_{DS} \right) v_{DS}$ & $v_{DS} < v_{OV}$ & (Triode region) \\
-$i_D = \frac{1}{2} k_n^{\prime} \left( \frac{W}{L} \right) v_{OV}^2$ & $v_{DS} \geq v_{OV}$ & (Saturation region)
+$i_D = \frac{1}{2} k_n^{\prime} \left( \frac{W}{L} \right) v_{OV}^2 \left( 1 + \lambda v_{DS} \right)$ & $v_{DS} \geq v_{OV}$ & (Saturation region) \\
+$k_n^{\prime} = \mu_n C_{ox}$ & & \\
+$v_{OV} = v_{GS} - V_t$ & & \\
+$\lambda = \frac{1}{V_A}$ & & \\
+$V_A = V_A^{\prime} L$ & & \\
+$k_n = k_n^{\prime} \left( \frac{W}{L} \right)$ & & \\
+$g_{DS} = k_n v_{OV}$ & & \\
+$r_{DS} = \frac{1}{g_{DS}}$ & & \\
+$A_v \equiv \frac{v_{ds}}{v_{gs}} = -g_m R_D$ & & \\
+$g_m \equiv \frac{\partial i_D}{\partial v_{GS}}$ & $v_{GS} = V_{GS}$ & $g_m$ is slope at bias point \\
+$g_m = \sqrt{2 k_n I_D}$ & & \\
+$g_m = \frac{2 I_D}{V_{OV}}$ & & \\
+$r_o \equiv \left[ \frac{\partial i_D}{\partial v_{DS}} \right]^{-1}$ & $v_{GS}$ constant & \\
+$r_o = \frac{V_A}{i_D^{\prime}}$ & & \\
+$i_D^{\prime} = \frac{1}{2} k_n^{\prime} \left( \frac{W}{L} \right) \left( v_{GS} - V_t \right)^2$
 \end{tabular}
 
 \section*{Notes}
+\begin{tabular}{ l l }
+Term & Description \\
+$k_n^{\prime}$ & Process transconductance parameter \\
+$k_n$ & MOSFET transconductance parameter \\
+$i_D^{\prime}$ & Drain current without channel-length modulation \\
+$\mu_n$ & Electron mobility \\
+$C_{ox}$ & Oxide capacitance \\
+$L$ & Channel length \\
+$V_A^{\prime}$ & Process-technology dependent parameter \\
+$A_v$ & Voltage gain \\
+$v_{OV}$ & Overvoltage \\
+$V_A$ & Early voltage \\
+$V_t$ & Threshold voltage \\
+$g_{DS}$ & Channel conductance \\
+$r_{DS}$ & Channel resistance \\
+$g_m$ & Mutual gain \\
+\end{tabular}
 
 \end{document}

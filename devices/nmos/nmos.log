@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  24 OCT 2026 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  27 OCT 2026 18:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -87,35 +87,46 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <images/symbols.png, id=1, 187.6611pt x 83.8332pt>
 File: images/symbols.png Graphic file (type png)
 <use images/symbols.png>
-Package pdftex.def Info: images/symbols.png  used on input line 12.
+Package pdftex.def Info: images/symbols.png  used on input line 13.
 (pdftex.def)             Requested size: 187.66064pt x 83.83298pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+<images/large-signal.png, id=3, 2724.1775pt x 1288.815pt>
+File: images/large-signal.png Graphic file (type png)
+<use images/large-signal.png>
+Package pdftex.def Info: images/large-signal.png  used on input line 18.
+(pdftex.def)             Requested size: 370.49881pt x 175.28046pt.
+<images/small-signal.png, id=4, 2724.1775pt x 975.645pt>
+File: images/small-signal.png Graphic file (type png)
+<use images/small-signal.png>
+Package pdftex.def Info: images/small-signal.png  used on input line 22.
+(pdftex.def)             Requested size: 370.49881pt x 132.68893pt.
  [1
 
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/symbols.png>] (./nmos.aux)
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/symbols.png> <./images/large-signal.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 25.
+ [2 <./images/small-signal.png>] [3] (./nmos.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1311 strings out of 467525
- 21424 string characters out of 5418982
- 438756 words of memory out of 5000000
- 30258 multiletter control sequences out of 15000+600000
- 632275 words of font info for 55 fonts, out of 8000000 for 9000
+ 1336 strings out of 467525
+ 22075 string characters out of 5418982
+ 447756 words of memory out of 5000000
+ 30283 multiletter control sequences out of 15000+600000
+ 632582 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,65p,255b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on nmos.pdf (1 page, 103737 bytes).
+ 57i,10n,65p,255b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on nmos.pdf (3 pages, 1541874 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
