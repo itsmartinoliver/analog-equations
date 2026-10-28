@@ -1,0 +1,28 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\title{MOS Differential Pair}
+\author{}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{Schematic}
+\includegraphics[width=0.95\linewidth]{differential-pair.png}
+
+\section*{Equations}
+\begin{tabular}{ l l l }
+Equation & Conditions & Notes \\
+$v_{G1} = V_{CM} + \left( \frac{v_{id}}{2} \right)$ & & \\
+$v_{G2} = V_{CM} - \left( \frac{v_{id}}{2} \right)$ & & \\
+\end{tabular}
+
+\section*{Notes}
+\begin{tabular}{ l l }
+Term & Description \\
+$V_{CM}$ & Common-mode input. Average of $v_{G1}$ and $v_{G2}$. \\
+$v_{id}$ & Differential input. Difference between $v_{G1}$ and $v_{G2}$. \\
+\end{tabular}
+
+\end{document}
